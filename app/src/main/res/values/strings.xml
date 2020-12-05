@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Stuff Exchange</string>
     <string name="register"><u>REGISTER HERE</u></string>
+    <string name="offers">My Offers</string>
+    <string name="ads">My Ads</string>
 </resources>

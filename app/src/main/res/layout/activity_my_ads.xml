@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context=".MainActivity">
+    tools:context=".MyAdsActivity">
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="111dp"
@@ -18,7 +18,7 @@
         android:layout_marginRight="111dp"
         android:layout_marginBottom="610dp"
         android:fontFamily="@font/bevan"
-        android:text="Marketplace"
+        android:text="My Ads"
         android:textColor="#000000"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/adListView"
+        android:id="@+id/myAdsListView"
         android:layout_width="411dp"
         android:layout_height="531dp"
         android:layout_marginTop="127dp"
@@ -36,5 +36,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

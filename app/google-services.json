@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98210653104",
+    "project_id": "stuff-exchange-913cd",
+    "storage_bucket": "stuff-exchange-913cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98210653104:android:554b42d93f0073bc116c75",
+        "android_client_info": {
+          "package_name": "com.example.stuffexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98210653104-kv14otd4asgvu3p28a242c9evsse0n3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Epg5hD551a2ctcUhqKXhbHoOHC-r438"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98210653104-kv14otd4asgvu3p28a242c9evsse0n3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

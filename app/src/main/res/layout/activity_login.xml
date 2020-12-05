@@ -15,7 +15,7 @@
         android:layout_marginLeft="84dp"
         android:layout_marginTop="156dp"
         android:text="Password"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -42,14 +42,14 @@
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="48dp"
-        android:text="Username"
-        android:textColor="#FFFFFF"
+        android:text="Email"
+        android:textColor="#020101"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/email_text"
         android:layout_width="231dp"
         android:layout_height="44dp"
         android:backgroundTint="@color/white"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password_text"
         android:layout_width="230dp"
         android:layout_height="43dp"
         android:backgroundTint="@color/white"
@@ -80,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="@string/register"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -88,14 +89,15 @@
 
     <Button
         android:id="@+id/logInBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_width="193dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
         android:background="@android:color/black"
         android:text="Login"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/password_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
